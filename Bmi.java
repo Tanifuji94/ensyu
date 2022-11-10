@@ -17,7 +17,7 @@ public class Main{
 		double bmi1 = weight1 / (height1 * height1);
 		double bmi2 = weight2 / (height2 * height2);
 
-		System.out.println(bmi1);
-		System.out.println(bmi2);
+		System.out.println("%.2f",bmi1);
+		System.out.println("%.2f",bmi2);
 	}
 }
